@@ -1,0 +1,372 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 10, 2016, 6:58:42 PM
+    Author     : user1
+*/
+body{
+    
+    background-image: url("../img/bg1.jpg"); /* #202020*/
+    background-repeat: no-repeat;
+    background-color:#181818;
+    color:#888888;
+    background-attachment: fixed;
+     width: 100%;
+     background-size: cover;
+     //background-color: rgba(42, 47, 49, 0.7);
+     
+}
+
+#background_container{
+    width: 1000px; 
+    margin: 0 auto;
+    background-color: rgba(42, 47, 49, 0.7);
+}
+
+#left_bg{
+    width: 500px;
+    height: 200px;
+    background: linear-gradient(to left, rgba(255,0,0,0), rgba(255,0,0,1));
+}
+
+#wrapper{
+    width: 1000px; 
+    margin: 0 auto;
+    background-color: rgba(42, 47, 49, 0.7);
+    //background-color:#181818;
+    /*background: linear-gradient(70deg, rgba(15,15,15,0), rgba(255,255,255,1));
+    background: linear-gradient(from center, rgba(255,0,0,0), rgba(255,0,0,1));*/
+    //opacity: 0.8;
+    //filter: alpha(opacity=40);  /*For IE8 and earlier */
+}
+
+#for_slider{
+    width: 800px;
+    height: 420px; 
+    float:left; 
+    //background-color: gray;
+    margin-top: 15px;
+    //background-color: rgba(42, 47, 49, 0.7);
+}
+
+#show_comment{
+    color:#888888  ;
+}
+
+.left_menu{
+    width: 200px;  
+    float:left;
+    color:#888888  ;
+    //background-color:#181818;
+    font-family: fairy_dust,fantasy,verdana;
+    text-align: center;
+    //background-color: rgba(42, 47, 49, 0.7);
+    background-color: rgba(24, 24, 24, 0.7);
+    
+}
+
+.left_menu a{
+    color:#888888  ;
+    font-size: 25px;
+}
+
+.left_menu a:hover{
+    color: orange ;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+li {
+    list-style-type: none; /* Убираем маркеры */
+}
+#header{
+    height: 90px; 
+    width: 1000px;
+    margin: 10px 0 0 0px;
+    background-color:#181818;
+    background-image:  url('../img/header_bg-skyrim.jpg');
+}
+
+#logo{ 
+    width: 105px;
+    margin-left: 20px;
+    position: relative;
+    display: inline-block;
+
+}
+
+#logo img{ 
+    z-index: 5;
+    height: 200px;
+    width:auto;
+}
+
+#skyrim_wrote{
+    width: 292px;
+    height: 100px;
+    display: inline-block;
+}
+
+#skyrim_wrote img{
+    margin-top: -100px;
+    
+}
+
+//@font-face { font-family: Delicious; src: url('../fonts/cup and talon.ttf'); } 
+@font-face { font-family: fairy_dust; src: url('../fonts/fairydust.ttf'); } 
+
+.menu{
+    float: right; 
+    margin-top: 30px;
+    display: inline-block;
+    font-size: 27px;//30px;
+    background-color:#181818;
+    font-family: fairy_dust,fantasy,verdana;
+    
+}
+
+.menu a{
+    color:#888888;
+    background-color:#181818;
+    text-decoration: none;
+
+}
+
+.menu a:hover{
+    background-color:#181818;
+    color: orange ;
+    text-decoration: none;
+    //border-radius: 25px;
+    //background-color: black;
+    //background: none;
+    
+    //border: solid 1px #CCC;
+/*	-moz-box-shadow: 1px 1px 5px #999;
+	-webkit-box-shadow: 1px 1px 5px #999;
+        box-shadow: 1px 1px 5px #999;*/
+/*        -moz-box-shadow: 0 0 10px #ccc; 
+        -webkit-box-shadow: 0 0 10px #ccc; 
+        box-shadow: 0 0 10px #ccc; */
+    
+}
+
+
+
+.show_comment{
+    //background-color: rgba(0,0,0,0.5);
+    opacity: 1;
+}
+
+#box_comment{
+    background-color: rgba(24, 24, 24, 0.7);
+    //background-color:#181818;
+    //opacity: 0.5;
+    color: white;
+}
+
+#box_comment p{
+    opacity: 1;
+}
+
+#main_content{
+    //background-color:#181818;
+    //padding-bottom: 40px;
+    background-color: rgba(24, 24, 24, 0.7);
+    width: 1000x;
+    float: left;
+}
+
+#banner-fade ol{
+    bottom: 0px; 
+    position:absolute;
+}
+
+#content_container{
+    //background-color:#181818;
+    background-color: rgba(24, 24, 24, 0.7) !important;
+}
+
+#quest_content{ 
+    padding:15px;
+    //background-color: rgba(42, 47, 49, 0.7);
+    //background-color:#181818;
+    //float: right;
+    //background-color: rgba(42, 47, 49, 0.7);
+}
+
+.image_content{
+    text-align:center;
+}
+
+#login_block{
+    width:50%; 
+    margin-left: 20px; 
+    margin-top:120px;
+}
+
+#register_block{
+    width:50%; 
+    margin-left: 20px; 
+    margin-top:120px;
+}
+
+#contact_page{
+    margin-top:120px;
+    font-family: fairy_dust,fantasy,verdana;
+}
+
+#map_page{
+    margin-top:90px;
+    font-family: fairy_dust,fantasy,verdana;
+}
+#map_page h1{
+    margin-left: 430px;
+}
+
+.comment_filed{
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    font-family: fairy_dust,fantasy,verdana;
+    
+}
+
+#adminpage{
+    margin-top:110px;
+}
+
+.admin_table_link{
+    color:#888888;
+    text-decoration: none;
+}
+
+.admin_table_link:hover{
+    color:orange;
+    text-decoration: none;
+}
+
+.left_margin{
+    margin-left: 350px;
+}
+
+.comment_submit_button{
+    width : 150px;
+    margin-left: 400px;
+    background: rgba(0, 0, 0, 0) -moz-linear-gradient(center top , #5a5f63, #b1bbc2) repeat scroll 0 0;
+    background: -webkit-linear-gradient(top, #5a5f63, #b1bbc2);
+    border-radius: 16px;
+    border-top: 1px solid #dfebf2;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 1);
+    color: white;
+    font-family: Georgia,serif;
+    font-size: 19px;
+    padding: 15px 30px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+    vertical-align: middle;
+    font-family: fairy_dust,fantasy,verdana;
+}
+
+.comment_submit_button:hover {
+    background: orange none repeat scroll 0 0;
+    border-top-color: #d6901e;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: fairy_dust,fantasy,verdana;
+}
+
+.comment_submit_button:active{
+    background: #ff9d19 none repeat scroll 0 0;
+    border-top-color: #d6901e;
+    text-decoration: none;
+    font-family: fairy_dust,fantasy,verdana;
+}
+
+#gallerie_block{
+    width:100%;
+    height: 600px;
+}
+
+.comment_text{
+    font-size: 15px;
+    height: auto;
+    font-style: italic; 
+}
+
+.comment_author{
+    width: 200px;
+    float:left;
+}
+
+.comment_like{
+    float:right; 
+    margin-right: 10px;
+    display: block;
+    text-decoration: none;
+    font-size: 15px;
+}
+.comment_like a{
+      color:#888888;
+}
+
+.comment_like a:hover{
+      color:orange;
+      text-decoration: none;
+}
+
+#footer{
+    background-color: rgba(24, 24, 24, 0.7);
+    
+}
+
+#footer h3{
+    font-family: fairy_dust,fantasy,verdana;
+}
+
+.button{
+    background: rgba(0, 0, 0, 0) -moz-linear-gradient(center top , #5a5f63, #b1bbc2) repeat scroll 0 0;
+    background: -webkit-linear-gradient(top, #5a5f63, #b1bbc2);
+    border-radius: 16px;
+    border-top: 1px solid #dfebf2;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 1);
+    color: white;
+    font-family: Georgia,serif;
+    font-size: 19px;
+    padding: 15px 30px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+    vertical-align: middle;
+	}
+	
+	
+	
+.button:hover {
+    background: orange none repeat scroll 0 0;
+    border-top-color: #d6901e;
+    color: #ffffff;
+}
+
+.button:active {
+    background: #ff9d19 none repeat scroll 0 0;
+    border-top-color: #d6901e;
+}
+
+.delete_comment{
+    float:right; 
+    margin-right: 15px;
+    
+}
+
+#change_profile_block{
+    margin-top: 110px;
+    width: 500px;
+    margin-left: 20px;
+}
+
+#change_profile_block h1{
+    font-family: fairy_dust,fantasy,verdana;
+}
